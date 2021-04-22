@@ -1,11 +1,16 @@
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
+    margin: 40px;
+    justify-content: center
 }
-body{
-    border: solid;
+body *{
+ border: solid;
 }
-
+.intro{
+    display:flex;
+  flex-wrap: wrap;
+}
 .header{
    
     display:flex;
@@ -16,19 +21,50 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    border: deeppink    ;
 }
+
 body{
+   
     background: 
-    linear-gradient(purple  0%,red 90%,pink),
-    linear-gradient(to right,pink 0%,red 10%,purple  20%,yellow 90%);
+    linear-gradient( purple  0%,red 90%,pink),
+    linear-gradient(to right,pink 0%,red 10%,purple  20%,yellow 90%, palegreen);
     background-blend-mode: screen,difference,lighten;
-    border:solid
+   
 }
 .menu{
     justify-content: space-between;
+   padding: 30px;
 
 }
+ a:link{
+     color:black;
+ }
+ a:visited{
+     color:black;
+ }
 
-.box{
-    flex-wrap: nowrap;
+ .item{
+     margin: 30px;
+     padding-top: 30px;
+     width: 300px;
+   
+     word-wrap: break-word;
+ }
+.item p{
+    position:absolute;
+   
+    top:auto;
+    left:auto;
+
+opacity: 0;
+
+color: black
+
+}
+.item:hover p{
+    opacity: 1;
+}
+.menu a{
+    text-decoration-style: dashed;
 }
