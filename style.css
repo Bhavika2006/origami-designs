@@ -53,8 +53,8 @@ body{
 .item p{
     position:absolute;
  
-    top:23px;
-    left:23px;
+    top:auto;
+    left:auto;
 
 opacity: 0;
 
