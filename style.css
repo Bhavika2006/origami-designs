@@ -1,12 +1,10 @@
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
-    margin: 40px;
+   
     justify-content: center
 }
-body *{
- border: solid;
-}
+
 .intro{
     display:flex;
   flex-wrap: wrap;
@@ -15,6 +13,7 @@ body *{
    
     display:flex;
     justify-content: space-between;
+    flex-direction: column;
  
 }
 .grid{
@@ -33,7 +32,7 @@ body{
    
 }
 .menu{
-    justify-content: space-between;
+    justify-content: right;
    padding: 30px;
 
 }
@@ -53,9 +52,9 @@ body{
  }
 .item p{
     position:absolute;
-   
-    top:auto;
-    left:auto;
+ 
+    top:23px;
+    left:23px;
 
 opacity: 0;
 
